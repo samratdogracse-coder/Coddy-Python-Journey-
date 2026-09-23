@@ -1,0 +1,11 @@
+#1. Your task is to write a program that outputs Hello World!
+
+print("Hello World")
+
+
+#2. Comment out the print("Goodbye!") line , without deleting it so that only Hello, Python! is printed. Add the comment symbol at the start of that line. Do not delete any line.
+
+#print("Goodbye!")   # <-- turn this line into a comment
+print("Hello, Python!")
+
+
