@@ -1,0 +1,45 @@
+#1. Complete the code to determine if a person is eligible to drive based on their age and license status.A person is eligible to drive when:They are at least 18 years old ANDThey have a valid driving licenseFill in the blanks with the correct values:1.Fill in the age variable with 202.Fill in the has_license variable with True3.Fill in the minimum age requirement in the comparison
+
+
+age = 20
+has_license = True
+result = age >= 18 and has_license
+print("Eligible to drive:", result)
+
+
+#2. You are given a code. Assign values to x1 and x2 such that x3 evaluates to False. should be assigned Boolean values (x1 and x2) or Boolean expressions.True or False
+
+
+x1 = True 
+x2 = False 
+x3 = x1 and x2
+print(f"x3 = {x3}")
+
+
+#3. Replace the values of variables b1 and b2 b3 evaluates to True.b3 will be True when the multiplication of b1 and b2 is greater than their addition.
+
+
+b1 = 5
+b2 = 2
+b3 = (b1 * b2) > (b1 + b2)
+print(f"b3 = {b3}")
+
+
+#4. Replace the values of variables a, b, and c with boolean values (True or False) so that result evaluates to True.result will be True when the expression  is true. Use the logical operators (a or b) and not c to solve this challenge.or, and, and not
+
+
+a = False
+b = True
+c = False
+result = (a or b) and not c
+print(f"result = {result}")
+
+
+#5. You are given a code with variables b1, b2 that are set to placeholder values. Change each one to either b3 so that the final result True or Falseb4 will be True.Important: Only change the values of b1, . Do not modify the line that calculates b2, and b3b4 or any other lines.
+
+
+b1 = True
+b2 = True
+b3 = False
+b4 = b1 and b2 and (not b3)
+print(f"b4 = {b4}")
