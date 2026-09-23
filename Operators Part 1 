@@ -16,4 +16,83 @@ z = x*y
 print(f"x = {x}, y = {y}, z = {z}")
 
 
-#3.
+#3. Write a code that initializes three variables, a, b and c with the values 9, 2, and 11 (respectively).After that, initialize the following variables: modulo d that will hold the result of a2  modulo e that will hold the result of b3 modulo f that will hold the result of c10
+
+
+a = 9 
+b = 2
+c = 11
+d = 1
+e = 2 
+f = 1
+print(f"a = {a}")
+print(f"b = {b}")
+print(f"c = {c}")
+print(f"d = {d}")
+print(f"e = {e}")
+print(f"f = {f}")
+
+
+#4. Write a code that initializes three variables, x, y and z with the values 15, 4, and 23 (respectively).After that, initialize the following variables:w that will hold the remainder of x divided by y  v that will hold the remainder of z divided by xu that will hold the remainder of z divided by yUse the % operator for modulo (remainder).
+
+
+x = 15
+y = 4
+z = 23
+w = x % y
+v = z % x
+u = x % y
+print(f"x = {x}")
+print(f"y = {y}")
+print(f"z = {z}")
+print(f"w = {w}")
+print(f"v = {v}")
+print(f"u = {u}")
+
+
+#5. You are given a code with initialization of count. (Don't delete this line!)Your task is to add the following operations, in this order:1.Add 4 to count2.Multiply count by 23.Subtract 1 from countUse the arithmetic shortcuts to do so!
+
+
+count = 0
+count += 4
+count *= 2
+count -= 1 
+print(f"count = {count}")
+
+
+#6. You are given a code with initialization of score. (Don't delete this line!) variable using arithmetic shortcuts, in this order:Your task is to modify the score1.Divide score by 22.Add 10 to score3.Multiply score by 3Remember to use the arithmetic shortcuts for each operation!
+
+
+score = 100
+score /= 2
+score += 10
+score *= 3
+print(f"score = {score}")
+
+
+#7. You are given a code, initialize the variables a will hold b with integer values so that c24.Refer to the given code to understand what c holds
+
+
+a = 8
+b = 3
+c = b * a
+print(f'c = {c}')
+
+
+#8. Write a script that initializes 2 variables n1 (accordingly).n2 with the values 8 and 9 that will hold whether After that initialize another variable n3n1 is bigger than n2.
+
+
+n1 = 8
+n2 = 9
+n3 = n1 > n2
+print(f"n1 = {n1}, n2 = {n2}, n3 = {n3}")
+
+
+#9. Write a script that initializes 2 variables x and  (accordingly).y with the values 15 and 10 that will hold whether After that initialize another variable zx is less than or equal to y.
+
+
+x = 15
+y = 10
+z = x <= y
+print(f"x = {x}, y = {y}, z = {z}")
+
