@@ -1,0 +1,19 @@
+#1. Write a code that initializes two variables, a (respectively) and b, with the values 5.2 and 2.6 that will hold the result of After that, initialize another variable c = a / b.
+
+
+a = 5.2
+b = 2.6
+c = 2.0
+print(f"a = {a}, b = {b}, c = {c}");
+
+
+#2. Write a code that initializes two variables, x (respectively)and y, with the values 12.5 and 3.5 that will hold the result of After that, initialize another variable z = x * y.
+
+
+x = 12.5
+y = 3.5
+z = x*y
+print(f"x = {x}, y = {y}, z = {z}")
+
+
+#3.
