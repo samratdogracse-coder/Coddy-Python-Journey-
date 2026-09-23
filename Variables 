@@ -1,0 +1,71 @@
+#1. Write code that initializes a variable named var with the value 5. Replace the ? with the correct value are comments - they explain what to do but don't affect your codeLines starting with #Only change the line that says var = ?
+
+
+var = 5
+print(f'var = {var}')
+
+
+#2. Declare a variable named num and assign it the value 3.14.
+
+
+num = 3.14
+print(f'num = {num}')
+
+
+#3. Store the string  in a variable named I am learning to code with Coddy!coddy.
+
+
+coddy = "I am learning to code with coddy!"
+print(f'coddy = "{coddy}"')
+
+
+#4. Store the string Python is awesome!in a variable name favorite_language.
+
+
+favorite_language = "Python is awesome!"
+print(f'favorite_language = {favorite_language}')
+
+
+#5. Declare a variable named boolean and assign it the value True.
+
+
+boolean = True
+print(f'boolean = {boolean}')
+
+
+#6. Declare a variable named flag and assign it the value False.
+
+
+flag = False
+print(f'flag = {flag}')
+
+
+#7. Declare a variable named nothing and assign it the value None.
+
+
+nothing = None
+print(f'nothing = {nothing}')
+
+
+#8. A booking system starts with two unset fields. Set  so that both hold Python's no-value marker, then finish the check so it reports whether the booking is still empty.seat and guestReplace each ? to compare against the no-value marker, not Use is == Do not change the printing lines 
+
+
+seat = None
+guest = None
+both_empty = seat is None and guest is None
+print(f'seat = {seat}')
+print(f'guest = {guest}')
+print(f'both empty: {both_empty}')
+
+
+#9. Write code that initializes the following variables: (note: lowercase 'k')k with the value 88 (note: uppercase 'PI')PI with the value 3.14 name with the value "Bob".
+
+
+k = 88
+PI = 3.14
+name = "Bob"
+
+# Don't change the line below
+print(f"k = {k}")
+print(f"PI = {PI}")
+print(f"name = {name}")
